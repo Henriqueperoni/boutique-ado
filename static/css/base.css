@@ -322,14 +322,3 @@ input[name='q']::placeholder {
     }
 
 }
-
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 576px) {
-    .header-container {
-        padding-top: 216px;
-    }
-
-    body {
-        height: calc(100vh - 216px);
-    }
-}
